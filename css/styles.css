@@ -1,0 +1,152 @@
+* {
+box-sizing: border-box;
+max-width: 100%;
+text-align: center;
+}
+
+.main-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav {
+    margin: 2rem;
+}
+
+ul.nav {
+    padding: 0;
+}
+
+a {
+    padding: 5px;
+    margin: 5px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    background-color: gray;
+    margin: 1em;
+}
+
+.portfolio {
+    background-color: gray;
+    margin: 1em;
+    
+}
+
+#portfolio {
+    padding: 10px;
+    margin: 16px 0 0;
+}
+
+.contact {
+    background-color: gray;
+    margin: 1em;
+}
+
+ul {
+    list-style: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+img {
+   width: 80%;
+   height: 50%;
+   margin: 1rem 0;
+}
+
+p {
+    padding: 10px;
+    border: 5px;
+    margin: 16px;
+}
+
+.div-intro {
+    background-color: gray;
+    padding: 2rem;
+}
+
+footer {
+    width: 100%;
+        /* display: flex; */
+        flex-direction: column;
+        /* align-items: center; */
+        padding: ;
+        /* border: black; */
+        margin: 2rem;
+}
+
+h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+ul {
+    padding: 10px 10px;
+
+}
+
+
+.phone {
+    padding: 5px 5px;
+    border: 2px 2px;
+    margin: 3px 3px;
+}
+
+.email {
+    padding: 5px 5px;
+    border: 2px 2px;
+    margin: 3px 3px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-footer {
+    display: none;
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:768px) {
+   .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+    .img-1 {
+       float: right;
+       max-width: 40%;
+       max-height: 20%;
+    }
+
+    .div-intro {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .portfolio-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 40vw;
+    }
+    .top {
+        display: none;
+    }
+    .nav-footer {
+        display: flex;
+        margin: inherit;
+        
+    }
+}

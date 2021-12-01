@@ -12,7 +12,7 @@
     font-family: 'Be Vietnam Pro', sans-serif;
         }
     </style>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="normalize.css">
     <title>Jaycee's Portfolio</title>
 </head>
@@ -20,67 +20,79 @@
         <div class="main-container">
             <header> 
             <div>
-                <h1> Jaycee Salazar </h1>
+                <h1 id="name"> Jaycee Salazar </h1>
                 <ul class="nav">
-                    <li><a href="index.html"> Home </a></li>
-                    <li><a href="#portfolio"> Portfolio </a></li>
-                    <li><a href="#contact"> Contact </a></li>
+                    <li class="home"><a href="index.html"> Home </a></li>
+                    <li class="portfolio"><a href="#portfolio"> Portfolio </a></li>
+                    <li class="contact"><a href="#contact"> Contact </a></li>
                 </ul>
             </div>
 
-            <div>
-                <img src="images/responsive-layout-profile.png" alt="Picture of Jaycee Salazar">
+            <div class="div-intro">
+                <img class="img-1" src="images/responsive-layout-profile.png" alt="Picture of Jaycee Salazar">
                 <p> Hi! Im a front-end web developer who loves reponsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use! </p>
             </div>
             </header>
 
             <main>
                 <h2 id="portfolio"> Portfolio </h2>
-                <div>
-                    <img src="images/portfolio-1.png" alt="Image of Marketing Page">
-                    <h3> Marketing Page </h3>
-                    <p> This Project shows a front page of a marketing website meant for a specific business im intrested in.</p>
-                </div>
-                
-                <div>
-                    <img src="images/portfolio-2.png" alt="seach page">
-                    <h3> Search Page </h3>
-                    <p> This Project shows a front page of a marketing website meant for a specific business im intrested in.</p>
-                </div>
+                <div class="portfolio-container">
+                    <div class="item-1">
+                        <img src="images/portfolio-1.png" alt="Image of Marketing Page">
+                        <h3> Marketing Page </h3>
+                        <p> This Project shows a front page of a marketing website meant for a specific business im intrested in.</p>
+                    </div>
+                    
+                    <div class="item-2">
+                        <img src="images/portfolio-2.png" alt="seach page">
+                        <h3> Search Page </h3>
+                        <p> This Project shows a front page of a marketing website meant for a specific business im intrested in.</p>
+                    </div>
 
-                <div>
-                    <img src="images/portfolio-3.png" alt="Image of Travel App">
-                    <h3>Travel App </h3>
-                    <p> This Project searches through a specific database to find information that the user is trying to look up.</p>
-                </div>
+                    <div class="item-3">
+                        <img src="images/portfolio-3.png" alt="Image of Travel App">
+                        <h3>Travel App </h3>
+                        <p> This Project searches through a specific database to find information that the user is trying to look up.</p>
+                    </div>
 
-                <div>
-                    <img src="images/portfolio-4.png" alt="Image of favorite spots">
-                    <h3>  Map of Favorite Spots </h3>
-                    <p> This Project shows a front page of a marketing website meant for a specific business im intrested in.</p>
-                </div>
+                    <div class="item-4">
+                        <img src="images/portfolio-4.png" alt="Image of favorite spots">
+                        <h3>  Map of Favorite Spots </h3>
+                        <p> This Project shows a front page of a marketing website meant for a specific business im intrested in.</p>
+                    </div>
 
-                <div>
-                    <img src="images/portfolio-5.png" alt="Image of Photo Gallery">
-                    <h3> Photo Gallery </h3>
-                    <p> This Project shows a front page of a marketing website meant for a specific business im intrested in.</p>
-                </div>
-                
-                <div>
-                    <img src="images/portfolio-6.png" alt="Image of calculator">
-                    <h3> Calculator </h3>
-                    <p> This Project shows a front page of a marketing website meant for a specific business im intrested in.</p>
+                    <div class="item-5">
+                        <img src="images/portfolio-5.png" alt="Image of Photo Gallery">
+                        <h3> Photo Gallery </h3>
+                        <p> This Project shows a front page of a marketing website meant for a specific business im intrested in.</p>
+                    </div>
+                    
+                    <div class="item-6">
+                        <img src="images/portfolio-6.png" alt="Image of calculator">
+                        <h3> Calculator </h3>
+                        <p> This Project shows a front page of a marketing website meant for a specific business im intrested in.</p>
+                    </div>
                 </div>
             </main>
             
             <footer>
                 <h2 id="contact"> Contact </h2>
-                <h4> Jaycee Salazar</h4>
-                <ul class="nav">
-                    <li><a href="#"> Home </a></li>
-                    <li><a href="#"> Portfolio </a></li>
-                    <li><a href="#"> Contact </a></li>
-                </ul>
+                <p class="contact-me"> If you are intrested in working with me, contact me at..</p>
+                <div class="div-contact">
+                    <ul class="flex-container">
+                        <li class="phone">Phone &nbsp; &nbsp; (210) 624-1382</li>
+                        <li class="email">Email &nbsp; &nbsp; salazarjaycee@gmail.com </li>
+                    </ul>
+                </div>
+                <div class="footer-container">
+                    <h4> Jaycee Salazar</h4>
+                    <h3 class="top"><a href="#"> Back to Top </a></h3>
+                    <ul class="nav-footer">
+                        <li class="home"><a href="index.html"> Home </a></li>
+                        <li class="portfolio"><a href="#portfolio"> Portfolio </a></li>
+                        <li class="contact"><a href="#contact"> Contact </a></li>
+                    </ul>
+                </div>
             </footer>
         </div>
     </body>
