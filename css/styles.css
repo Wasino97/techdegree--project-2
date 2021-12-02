@@ -5,6 +5,7 @@ text-align: center;
 }
 
 .main-container {
+    font-family: 'Be Vietnam Pro', sans-serif;
     width: 80%;
     margin: 0 auto;
     /* display: flex; */
