@@ -74,12 +74,11 @@ p {
 
 footer {
     width: 100%;
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     /* align-items: center; */
-    padding: ;
     /* border: black; */
-    /* margin: 2rem; */
+    margin: 2rem 0; 
 }
 
 h4 {
@@ -141,21 +140,48 @@ ul {
     .portfolio-container {
         display: flex;
         flex-wrap: wrap;
-        max-width: 40vw;
+       
     }
+
     .top {
         display: none;
     }
+
     .nav-footer {
         display: flex;
         margin: inherit;
-        
     }
 
     #intro {
         text-align: justify;
+        font-size: large;
+    }
+
+   .item-1 {
+        flex: 1 50%;
+    }
+
+    .item-2 {
+        flex: 1 50%;
+    }
+
+    .item-3 {
+        flex: 1 50%;
+    }
+
+    .item-4 {
+        flex: 1 50%;
+    }
+
+    .item-5 {
+        flex: 1 50%;
+    }
+
+    .item-6 {
+        flex: 1 50%;
     }
 }
+
 
 @media screen and (min-width:1024px) {
     .div-nav {
@@ -163,5 +189,27 @@ ul {
         justify-content: space-between; 
     }
 
+    .item-1 {
+        flex: 1 30%;
+    }
 
+    .item-2 {
+        flex: 1 30%;
+    }
+
+    .item-3 {
+        flex: 1 30%;
+    }
+
+    .item-4 {
+        flex: 1 30%;
+    }
+
+    .item-5 {
+        flex: 1 30%;
+    }
+
+    .item-6 {
+        flex: 1 30%;
+    }
 }
